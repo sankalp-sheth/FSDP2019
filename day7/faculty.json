@@ -1,0 +1,38 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue May 14 14:50:30 2019
+
+@author: KIIT
+"""
+
+import json
+json_string= """
+                {
+	"Faculty": [{
+		"First_name": "Arjun",
+		"Last_name": "Singh",
+		"Photo": "https://www.google.com/search?q=arjun+singh&source=lnms&tbm=isch&sa=X&ved=0ahUKEwibuNva65riAhUU7HMBHWiRACYQ_AUIDygC&biw=1536&bih=706#imgrc=C_h0AtSjEhm4QM:",
+		"Department": "CSE",
+		"Research_Areas": ["Backend", "Web development"],
+		"Contact_details": [{
+			"Phone_number": 8946946337,
+			"Email_id": "arjun.singh@gmail.com"
+		}]
+	}, {
+		"First_name": "aryamaan",
+		"Last_name": "Bannerjee",
+		"Photo": "https://www.google.com/search?q=arjun+singh&source=lnms&tbm=isch&sa=X&ved=0ahUKEwibuNva65riAhUU7HMBHWiRACYQ_AUIDygC&biw=1536&bih=706#imgrc=C_h0AtSjEhm4QM:",
+		"Department": "ETC",
+		"Research_Areas": ["Analog", "Digital"],
+		"Contact_details": [{
+			"Phone_number": 9989876564,
+			"Email_id": "bannerjee_arya@yahoo.com"
+		}]
+	}],
+	"Student": [{
+		"First_name": "Sankalp",
+		"Last_name": "Sheth",
+		"Branch": "CSE",
+		"Roll_no": 1706356
+	}]
+} """
